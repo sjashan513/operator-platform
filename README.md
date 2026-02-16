@@ -6,25 +6,25 @@ Unlike standard productivity tools that enforce rigid structures, The Operator u
 
 🚀 Key Features
 
-Polymorphic Item Engine: A "Universal Node" architecture using PostgreSQL JSONB to store diverse entity types (Trades, Tasks, Checkpoints) in a single relational table without schema migration fatigue.
+**Polymorphic Item Engine:** A "Universal Node" architecture using PostgreSQL JSONB to store diverse entity types (Trades, Tasks, Checkpoints) in a single relational table without schema migration fatigue.
 
-Context Checkpoints: A "Save State" system for deep-work projects, allowing developers to restore mental context in seconds after a hiatus.
+**Context Checkpoints**: A "Save State" system for deep-work projects, allowing developers to restore mental context in seconds after a hiatus.
 
-Trading Journal V1: Integrated trade tracking with R-Multiple calculations and psychological state tagging.
+**Trading Journal V1**: Integrated trade tracking with R-Multiple calculations and psychological state tagging.
 
-Signal-Based UI: Fully reactive frontend built with Angular Signals for fine-grained performance updates without Zone.js overhead.
+**Signal-Based UI**: Fully reactive frontend built with Angular Signals for fine-grained performance updates without Zone.js overhead.
 
 🛠 Tech Stack
 
 Frontend (Client)
 
-Framework: Angular 18+ (Standalone Components)
+**Framework**: Angular 18+ (Standalone Components)
 
-State Management: Angular Signals & RxJS Interop
+**State Management**: Angular Signals & RxJS Interop
 
-Styling: Tailwind CSS + Phosphor Icons
+**Styling**: Tailwind CSS + Phosphor Icons
 
-Build: Vite / Esbuild
+**Build**: Vite / Esbuild
 
 Backend (API)
 
@@ -64,33 +64,33 @@ classDiagram
 
 ⚡ Quick Start
 
-Prerequisites
+**Prerequisites**
 
-Docker & Docker Compose
+- Docker & Docker Compose
 
-Node.js 20+
+- Node.js 20+
 
-Installation
+**Installation**
 
-Clone the repository
-
+1. Clone the repository
+```
 git clone [https://github.com/YOUR_USERNAME/operator-platform.git](https://github.com/YOUR_USERNAME/operator-platform.git)
 cd operator-platform
+```
 
-
-Start the stack (Backend + DB)
-
+2. Start the stack (Backend + DB)
+```
 docker-compose up -d --build
+```
 
-
-Start the Frontend
-
+3. Start the Frontend
+```
 cd frontend
 npm install
 npm start
+```
 
-
-Access the API at localhost:8000/api and the UI at localhost:4200.
+4. Access the API at localhost:8000/api and the UI at localhost:4200.
 
 📝 License
 
