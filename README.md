@@ -46,6 +46,7 @@ CI/CD: GitHub Actions (Linting & Testing)
 
 The system ignores the traditional separation between "Journaling" and "Project Management." Instead, it treats every interaction as an Item with a specific type and a dynamic payload.
 
+```
 classDiagram
     Project "1" --> "*" Item : contains
     class Item {
@@ -59,7 +60,7 @@ classDiagram
         String mode
         JSONB settings
     }
-
+```
 
 ⚡ Quick Start
 
